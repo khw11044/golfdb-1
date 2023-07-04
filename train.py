@@ -13,9 +13,9 @@ if __name__ == '__main__':
     split = 1
     iterations = 2000
     it_save = 100  # save model every 100 iterations
-    n_cpu = 6
+    n_cpu = 8
     seq_length = 64
-    bs = 22  # batch size
+    bs = 12  # batch size       # 22 -> 16 -> 12
     k = 10  # frozen layers
 
     model = EventDetector(pretrain=True,
